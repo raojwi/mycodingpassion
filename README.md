@@ -1,2 +1,0 @@
-# mycodingpassion
-My Coding Passion
