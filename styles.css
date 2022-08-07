@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #d7f2a9;
+    background-color: #111129;
     text-align: center;
     text-size-adjust: auto;
 }
@@ -10,7 +10,7 @@ h1 {
     margin-right: 70px;
     margin-left: 70px;
     text-align: center;
-    color: #6e2020;
+    color: #008000;
     text-size-adjust: auto;
   }
 
@@ -20,14 +20,34 @@ h1 {
     margin-right: 70px;
     margin-left: 70px;
     text-align: center;
-    color: #20286e;
+    color: #008000;
   }
 
   hr{
-    color: #00ffff;
+    color: #008000;
     size: 10px;
+    width: 50%;
   }
 nav{
-    text-align: left;
+    text-align: center;
     text-size-adjust: auto;
+    
+}
+a:link {
+  color: #008000;
+}
+a:visited {
+  color: #008000;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
