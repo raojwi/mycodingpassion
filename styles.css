@@ -22,7 +22,9 @@ h1 {
     text-align: center;
     color: #008000;
   }
-
+p{
+  color: antiquewhite;
+}
   hr{
     color: #008000;
     size: 10px;
