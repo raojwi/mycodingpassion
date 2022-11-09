@@ -1,6 +1,4 @@
 (function(){
     'use strict';
-    document.addEventListener( 'load' , function(){
-        document.getElementById("imgs").innerHTML = '<img src="img/dark_space.jpg"></img>';
-    })
+    document.getElementById("imgs").innerHTML = '<img src="img/dark_space.jpg"></img>';
 })();
