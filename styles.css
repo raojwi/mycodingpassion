@@ -1,3 +1,24 @@
 body {
     background-color: rgb(78, 78, 78);
+    background-image: url(resources/bg.png);
 }
+h1 li{
+    display: inline;
+    float: left;
+}
+h1 li a {
+    display: block;
+    color: rgb(47, 114, 201);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h1 li a:hover {
+    background-color: #1c1d1b;
+  }
+h1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
