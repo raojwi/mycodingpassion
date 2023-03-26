@@ -6,6 +6,10 @@ h1 li{
     display: inline;
     float: left;
 }
+h1 {
+    margin-left: 5px;
+    margin-top: 10px;
+}
 h1 li a {
     display: block;
     color: rgb(47, 114, 201);
@@ -21,9 +25,19 @@ h1 ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;}
-h2  {
-    align-self: center;
+    background-color: #4b4848;
+    background-blend-mode: darken;
+}
+h2  table{
+    text-align: left;
+    color: rgb(224, 220, 203);
+}
+h2 table th {
+    text-align: center;
+}
+h2 table td {
+    margin-top: 0px;
+    vertical-align: center;
 }
 h2 textarea {
     padding: 0%;
@@ -31,4 +45,9 @@ h2 textarea {
     text-align: left;
     align-self: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+hr {
+    height: 5px;
+    color: rgb(224, 220, 203);
+    fill: rgb(224, 220, 203);
 }
