@@ -8,19 +8,19 @@
   .image-container {
     position: relative;
     overflow: hidden;
-    width: 600px; /* Set the initial width */
-    height: 400px; /* Set the initial height */
+    width: 450px; /* Set the initial width */
+    height: 300px; /* Set the initial height */
   }
   
   .image-container img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     transition: transform 0.3s ease; /* Add a smooth transition effect */
   }
   
   /* Styles for the image on hover */
   .image-container:hover img {
-    transform: scale(1.2); /* Increase the scale on hover */
+    transform: scale(1.5); /* Increase the scale on hover */
   }
 
   body {
@@ -34,7 +34,7 @@
 }
 
 header, footer {
-    color: white;
+    color: yellow;
     padding: 10px;
     text-align: center;
 }
@@ -50,4 +50,8 @@ main {
     border: none;
     padding: 20px;
     text-align: center;
+}
+
+h2 {
+  color: black;
 }
